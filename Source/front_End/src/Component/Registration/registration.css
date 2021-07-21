@@ -1,0 +1,15 @@
+.registration{
+    margin-top: 100px;
+    text-align: center;
+}
+.registration textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+.registration .form{
+    margin-top: 50px;
+    text-align:  left !important;
+    padding-left: 20%;
+    padding-right: 20%;
+}

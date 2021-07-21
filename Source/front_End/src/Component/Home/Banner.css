@@ -1,0 +1,158 @@
+/* .banner{
+    background-color: blueviolet;
+    padding-top: 100px  ;
+    height: 500px;
+}
+
+.banner .p1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner .p2{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+ .search .col-2{
+    padding: 0px;
+}
+.navSearch p{
+    cursor:pointer;
+}
+
+.boxSearch .col-10{
+    padding: 20px;
+    background-color: white;
+}
+.boxSearch input,.boxSearch select{
+    border: none;
+}
+.boxSearch .col-3{
+    border-right: 1px solid gainsboro;
+}
+.boxSearch button{
+    color: white;
+    background-color: coral;
+    border: 1px solid coral;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+} */
+
+
+
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display:none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li{
+  position: relative;
+  display:block;
+  float: left;
+}
+.rslides img {
+  height: auto;
+  border: 0;
+}
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* .callbacks li {
+  position: absolute;
+  width: 100%;
+} */
+.callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+}
+.callbacks .caption {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	text-shadow: none;
+	color: #fff;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	margin: 0;
+	max-width: none;
+	top: 10%;
+	text-align: center;
+}
+.banner-1{
+	background:url("/img/1.jpg") no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:800px;
+}
+.banner-2{
+	background:url("/img/2.jpg") no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:800px;
+}.banner-3{
+	background:url("/img/3.jpg") no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:800px;
+}
+/* .agileits-banner-info {
+  text-align: center;
+  margin-top: 22em;
+} */
+.agileits-banner-info h3 {
+  color: #fff;
+  font-size: 70px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.agileits-banner-info {
+  text-align: center;
+  /* margin: auto;
+  padding:; */
+  padding-top: 35%;
+}
+.agileits-banner-info p {
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin: 10px 0;
+}

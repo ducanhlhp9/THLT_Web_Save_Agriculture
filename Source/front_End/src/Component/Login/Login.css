@@ -1,0 +1,49 @@
+.login1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+    /* text-align: center; */
+}
+.login1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.li{
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: rgb(255, 215, 228);
+    margin-bottom: 10px;
+}
+
+.size32{
+    font-size: 32px;
+}
+.lo{
+    padding: 30px;
+    border: 1px solid gainsboro;
+}
+.lo input{
+    width: 100% !important;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+.lo button{
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.lo button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.login{
+  margin-top: 5%;
+}
+.login h3{
+  text-align: center;
+  cursor: pointer;
+}

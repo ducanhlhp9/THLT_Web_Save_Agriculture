@@ -1,0 +1,6 @@
+{
+  "name": "OrganizationArticlesCreate",
+  "version": "0.0.0",
+  "private": true,
+  "main": "OrganizationArticlesCreate.js"
+}

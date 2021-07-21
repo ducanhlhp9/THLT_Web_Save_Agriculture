@@ -1,0 +1,65 @@
+.w3l-recent-work .jst-two-col {
+  padding: 70px 0 70px; }
+
+.w3l-recent-work .progress {
+  height: .3rem; }
+
+.w3l-recent-work .my-bar-grids h4 {
+  font-size: 17px;
+  line-height: 25px;
+  color: var(--title-color);
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: capitalize; }
+
+.w3l-recent-work .my-bar-grids {
+  margin: 0px 0px 15px; }
+
+.w3l-recent-work .my-bar-grids h4 span {
+  float: right;
+  font-size: 0.9em;
+  font-weight: 600; }
+
+.w3l-recent-work .my-bio h3 {
+  color: var(--header-title-color);
+  line-height: 45px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+.w3l-recent-work .details-details {
+  margin-top: 30px; }
+
+  .mb-3,
+  .my-3 {
+    margin-bottom: 1rem !important;
+}
+
+p.para {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--para-color);
+}
+progress {
+  vertical-align: baseline;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #28a745 !important;
+  transition: width 0.6s ease;
+  /* width: 80% ; */
+  height:.3rem;
+}
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+}
+.jst-two-col img{
+  width: 100%;
+}

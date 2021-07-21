@@ -1,0 +1,112 @@
+.product{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* .product .col-8 p:nth-child(1){
+    font-size: 1.7rem;
+    text-align: center;
+    color: red;
+} */
+.title{
+  font-size: 1.7rem;
+    text-align: center;
+    color: red;
+}
+.product .col-8 p:nth-child(2){
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+.product .col-8 img{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.product button{
+    bottom: 0px;
+    width: 50%;
+    left: 25%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+.panel{
+    border-color: #ddd;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.tochuc{
+    margin-top: 50px;
+}
+.tochuc p{
+    padding-left: 10px;
+}
+.panel h1{
+    text-align: center;
+}
+.lienquan{
+    padding-bottom: 10px;
+}
+.bantin{
+    padding: 10px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-bottom: 1px solid gray;
+}
+.cmt{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.tCmt div{
+
+    float: right;
+}
+.tCmt select{
+    font-size: 0.8rem;
+}
+.tCmt{
+    margin-bottom: 30px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e9ebee;
+}
+.txtCmt i{
+    font-size: 2.5rem;
+    padding: 5px;
+
+}
+.txtCmt textarea{
+    height: 50px;
+    resize: none;
+    width: 90%;
+}
+img{
+  border-radius: 10px
+}
+.txtCmt input{
+  width: 80%;
+}

@@ -1,0 +1,71 @@
+.body{
+  margin-bottom: 12em;
+}
+.abc{
+  padding-top: 6em;
+}
+.hm-gradient {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+  color: #616161 !important;
+}
+.darken-grey-text {
+  color: #2E2E2E;
+}
+.navbar button{
+  border: none;
+  background-color: white;
+  box-shadow: white;
+}
+button:focus{
+  outline-color: white;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+  }
+  .navbar .dropdown-menu{
+    top: 70% !important;
+  }
+  .black{
+    color: white !important;
+    background-color: black !important;
+  }
+  .navbar2{
+    top:0px;
+    position: fixed !important;
+    background-color: white;
+    transition: top 3s linear;
+  }
+  .navbar{
+     background-color:white;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    margin-right: 0px;
+    width: 100%;
+    /* position: relative; */
+    z-index: 999;
+    font-size: 16px;
+    /* position: fixed !important; */
+
+  }
+  .navbar-brand{
+    width: 15%;
+  }
+  .navbar-brand img{
+    width: 100%;
+  }
+  .navbar-nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .navbar-nav .nav-link{
+    color: black !important;
+  }
+  .dropdown-item i{
+    color: black !important;
+  }
+  .nav-item{
+    cursor: pointer;
+  }
